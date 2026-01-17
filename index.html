@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Субіт 4×4×4</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <canvas id="scene"></canvas>
+
+  <script type="module">
+    import * as THREE from "https://unpkg.com/three@0.164.1/build/three.module.js";
+    import { OrbitControls } from "https://unpkg.com/three@0.164.1/examples/jsm/controls/OrbitControls.js";
+
+    window.THREE = THREE;
+    window.OrbitControls = OrbitControls;
+  </script>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
